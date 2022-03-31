@@ -6,4 +6,9 @@ public class FizzBuzz {
     public int recorreNumeros() {
         return 100;
     }
+
+    public String printFizz(int n) {
+        if (n == 3){}
+        return "Fizz";
+    }
 }

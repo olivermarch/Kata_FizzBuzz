@@ -8,4 +8,11 @@ public class TestFizzBuzz {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals(100,fizzBuzz.recorreNumeros());
     }
+
+    @Test
+    public void check_that_it_print_a_string_with_fizz_when_the_number_is_3(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int n = 3;
+        assertEquals("Fizz",fizzBuzz.printFizz(n));
+    }
 }
