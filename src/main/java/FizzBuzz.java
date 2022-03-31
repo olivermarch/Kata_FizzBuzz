@@ -26,4 +26,19 @@ public class FizzBuzz {
         return buzz;
     }
 
+    public String printFizzWhenIsMultiply3(int i) {
+        String fizz = "";
+        if (i % 3 == 0){
+            fizz = "Fizz";
+        }
+        return fizz;
+    }
+
+    public String printFizzWhenIsMultiply5(int i) {
+        String buzz = "";
+        if (i % 5 == 0){
+            buzz = "Buzz";
+        }
+        return buzz;
+    }
 }
