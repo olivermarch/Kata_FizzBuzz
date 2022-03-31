@@ -15,4 +15,14 @@ public class TestFizzBuzz {
         int n = 3;
         assertEquals("Fizz",fizzBuzz.printFizz(n));
     }
+    @Test
+    public void check_that_it_print_a_string_with_buzz_when_the_number_is_5(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int n = 5;
+        assertEquals("Buzz",fizzBuzz.printBuzz(n));
+    }
+
+
+
+
 }
